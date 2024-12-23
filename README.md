@@ -14,7 +14,7 @@ This notebook conducts a regression analysis on the Forest Fires dataset, aiming
     - [Data Preprocessing and Quality Checks](#data-preprocessing-and-quality-checks)
     - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
     - [Cross-Validation and Model Selection](#cross-validation-and-model-selection)
-    - [Reflection](#reflection)
+  
 
 ---
 
