@@ -1,5 +1,3 @@
-## Assignment #07: Cross Validation
-
 # Forest Fires Dataset Analysis and Model Evaluation
 
 ## Overview
@@ -83,9 +81,3 @@ This notebook conducts a regression analysis on the Forest Fires dataset, aiming
      - **Root Mean Squared Error (RMSE)** is used to compare models, as it provides an interpretable error measure in the same units as the target variable.
      - The model with the lowest RMSE, indicating the smallest average prediction error, is selected for further tuning.
   
-### Reflection 
-This assignment gave us a deep dive into regression analysis and model evaluation, with a focus on cross-validation, which helped us better understand how to build and fine-tune predictive models. One of our biggest challenges was initially grasping the full concept of the assignment, especially the role of cross-validation and hyperparameter tuning. It took us a bit of time to fully see how cross-validation helps prevent overfitting and makes our model evaluation more reliable, but once we got it, it made a big difference in our approach.
-
-Another tricky part was dealing with the target variable's high skewness—many burned area values were either zero or very small, with just a few high outliers. This required us to focus carefully on data preprocessing and try out different scaling methods to get the data in good shape for modeling. Through trial and error, we saw firsthand how important it is to check data quality, explore relationships between features, and experiment with scaling to build a more accurate model.
-
-Overall, we learned a lot about the value of cross-validation in creating models that generalize well, even with challenging data that includes outliers. Trying out different regression algorithms also showed us the strengths of techniques like Lasso and Ridge for feature selection and regularization, and how Elastic Net gives a nice balance of both. This experience reinforced the importance of thoughtful preprocessing—scaling, and data exploration—to get reliable predictive results. In the end, we walked away with a stronger understanding of regression models and how to evaluate them to achieve the best performance possible.
